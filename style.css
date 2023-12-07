@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  text-align: center;
+}
+
+.nav img {
+  padding: 5px;
+  width: 25px;
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.adjustment {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.produtos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.produto {
+  margin: 20px;
+  padding: 20px;
+}
+
+
+.produto-nome {
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #000;
+}
+
+.produto-valor {
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: #999;
+}
+
+span {
+  color: #000;
+  font-weight: bold;
+}
+
+span:hover {
+  color: green;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: #5CA720;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #512200BF;
+}
+
+footer {
+  margin-top: 30px;
+}
+.infooter {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.footerbox {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+input[type="email"] {
+  margin-bottom: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.buth {
+  border-radius: 5px;
+  height: 35px;
+  text-align: center;
+}
+
+h2 {
+  padding-right: 80px;
+}
+
+.secao2 {
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
+
+  .produtos .produto {
+    width: 100%;
+  }
+
+  .footerbox {
+    width: 100%;
+  }
+}
+
+
+/* o código ficou tão bom que sem o @media ele ainda fica responsivo hehe */
